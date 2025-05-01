@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Receipt Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="editor">
+    <h2>Receipt Generator</h2>
+    <label>Phone Number:
+      <input type="text" id="phone" value="01780690978">
+    </label>
+    <label>Time:
+      <input type="text" id="time">
+    </label>
+    <label>Date:
+      <input type="text" id="date">
+    </label>
+    <label>Transaction ID:
+      <input type="text" id="txnId" value="CDH4FXYDE0">
+    </label>
+    <label>Sum1:
+      <input type="text" id="sum1" value="0.00">
+    </label>
+    <label>Sum2:
+      <input type="text" id="sum2" value="0.00">
+    </label>
+    <label>Total Amount:
+      <input type="text" id="amount" value="3,005.00">
+    </label>
+    <label>New Balance:
+      <input type="text" id="balance" value="1.86">
+    </label>
+
+    <button onclick="printReceipt()">Print Receipt</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

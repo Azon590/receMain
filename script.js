@@ -89,7 +89,7 @@ function printReceipt() {
                 .icon-container {
                     width: 40px;
                     height: 40px;
-                    background-color: ${randomColor};
+                    background-color:#89eeb0;
                     color: #fff;
                     display: flex;
                     align-items: center;

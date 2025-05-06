@@ -352,7 +352,7 @@ function printReceipt() {
                 <div class="info-grid">
                     <div class="info-box">
                         <div class="label">সময়</div>
-                        <div class="bld">${time}, ${date}</div>
+                        <div class="bld">${time} ${date}</div>
                     </div>
                     <div class="info-box">
                     <div class="label">ট্রানজেকশন আইডি</div>
